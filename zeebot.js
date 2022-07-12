@@ -81,7 +81,7 @@ myMonths = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","
 }                  
 var time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
         if(time2 < "23:59:00"){
-        var ucapanWaktu = 'GoodNigh🌌'
+        var ucapanWaktu = 'GoodNight🌌'
 }
         if(time2 < "19:00:00"){
         var ucapanWaktu = 'GooodEvening🌆'
@@ -1776,7 +1776,7 @@ ${q+=1}.term`)
          zee.sendMessage(from, {displayName: `Creator Bot`, vcard: vcard2}, contact, 
          { quoted: troli, 
          })
-         reply('*_Jangan Lupa Subscrib_*\nhttps://youtube.com/c/FEBZABOTZ')
+         reply('*_Jangan Lupa Polow_*\nhttps://vt.tiktok.com/ZSRenwMcA/')
          break
              
 		                         
