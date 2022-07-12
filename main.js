@@ -17,7 +17,7 @@ const _welkom = JSON.parse(fs.readFileSync('./lib/data/welcome.json'))
 const gombal = _gombal[Math.floor(Math.random() * _gombal.length)]
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
           if(time2 < "23:59:00"){
-          var ucapanWaktu = 'GoodNigh'
+          var ucapanWaktu = 'GoodNight'
 }
           if(time2 < "19:00:00"){
           var ucapanWaktu = 'GooodEvening'
@@ -40,7 +40,7 @@ const starts = async (zee = new WAConnection()) => {
     console.log(banner)
     console.log('\x1b[1;31m×\x1b[1;37m>', '[\x1b[1;32mシ︎\x1b[1;37m]', color('Hallo'), 'Kak', color(`${Miminnya}`))
     console.log(color(`SCRIPT INI DI SUSUN OLEH`,'yellow'))
-    console.log(color(`• 𝙁𝙚𝙗𝙧𝙞𝙖𝙣𝙨𝙮𝙖𝙝`,'yellow'))
+    console.log(color(`• 𝙕𝙮𝙠𝙪𝙖𝙣`,'yellow'))
     console.log(color(`Be Smart People`,'yellow'))   
     console.log(color(`Quotes : ${gombal}`,'cyan'))
     console.log(color('#Semangat Untuk Hari ini','yellow'))
